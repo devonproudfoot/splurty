@@ -34,6 +34,21 @@
 
     <br class="clear" />
 
-    <%= yield %>
+    <div class="container">
+      <%= yield %>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <%= link_to "Interested in seeing more?", "#", class: 'next-quote' %>
+          </div>
+          <div class="col-6 footer-blurb">
+            Built by <a href="https://github.com/devonproudfoot">Devon Proudfoot</a> in 2019.
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
