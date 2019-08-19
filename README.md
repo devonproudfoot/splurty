@@ -1,6 +1,6 @@
 # README
 
-A web application built by Devon Proudfoot
+A web application built by devdog
 
 
 [Check it out here](splurty-devon-proudfoot.herokuapp.com)
